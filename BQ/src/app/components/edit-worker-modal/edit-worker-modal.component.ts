@@ -1,6 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output  } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { workers, workersInterface } from '../models/Workers'
+import { Component, EventEmitter, OnInit, Output  } from '@angular/core';
 import { AdminViewService } from '../../services/admin-view.service'
 import { ViewAdminComponent } from '../view-admin/view-admin.component';
 
